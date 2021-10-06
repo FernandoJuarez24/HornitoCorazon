@@ -157,4 +157,7 @@
 	footer .copy{
 		font-size: 20px;
 	}
+	.productos .productosGaleria .productoImg:last-child{
+		margin-top: 0;
+	}
 }
