@@ -15,7 +15,10 @@
 	<!-- FUENTES -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+	<!--Animaciones-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<!-- PRELOADER -->
@@ -43,7 +46,7 @@
 			</div>
 		</nav>
 
-		<div class="headerTexto">
+		<div class="headerTexto" data-aos="fade-up" data-aos-duration="1000">
 			<h1>Cupcakes para endulzar tu vida</h1>
 			<h2>Postres gourmet 100% mexicanos.</h2>
 		</div>
@@ -58,11 +61,11 @@
 	<!-- ABOUT -->
 	<section class="about">
 		<h2 class="titulo">Conócemos</h2>
-		<h3>Ofreciendo una gran variedad de Cupcakes que endulzaran tu vida desde el año 2020.</h3>
+		<h3 data-aos="fade-down" data-aos-duration="1000">Ofreciendo una gran variedad de Cupcakes que endulzaran tu vida desde el año 2020.</h3>
 
 		<div class="aboutContenedor">
-			<img src="img/ilus/01.png" alt="">
-			<div class="aboutTexto">
+			<img data-aos="fade-right" data-aos-duration="1000" src="img/ilus/01.png" alt="">
+			<div class="aboutTexto" data-aos="fade-left" data-aos-duration="1000">
 				<h3><span></span>Misión</h3>
 				<p>Ser la opción ideal para nuestros consumidores, ofreciendo ricos y variados Cupcakes para que su festejo o celebración sea inolvidable y único.
 			
@@ -80,7 +83,7 @@
 		<div class="productosContenedor">
 			<h2 class="titulo">Productos</h2>
 
-			<div class="productosGaleria">
+			<div class="productosGaleria" data-aos="fade-up" data-aos-duration="1000">
 				<!-- PRODUCTO 1 -->
 				<div class="productoImg">
 					<img src="img/productos/01.jpg" alt="">
@@ -117,7 +120,7 @@
 
 		<div class="clientesCards">
 			<!-- CLIENTE 1 -->
-			<div class="card">
+			<div class="card" data-aos="fade-right" data-aos-duration="1000">
 				<img src="img/clientes/01.jpg" alt="">
 				<div class="clientesTexto">
 					<h3>Lois</h3>
@@ -126,7 +129,7 @@
 			</div>
 
 			<!-- CLIENTE 1 -->
-			<div class="card">
+			<div class="card" data-aos="fade-left" data-aos-duration="1000">
 				<img src="img/clientes/02.jpg" alt="">
 				<div class="clientesTexto">
 					<h3>Sara</h3>
@@ -143,7 +146,7 @@
 		<div class="serviciosContenedor">
 			<h2 class="titulo">Nuestros Servicios</h2>
 
-			<div class="serviciosGrupo">
+			<div class="serviciosGrupo" data-aos="fade-up" data-aos-duration="1000">
 				<!-- SERVICIO 1 -->
 				<div class="servicio">
 					<img src="img/servicios/01.png" alt="">
@@ -174,7 +177,7 @@
 		<h2 class="titulo">Haz tu Pedido</h2>
 
 		<!-- FORMULARIO -->
-		<div class="pedidosContenedor">
+		<div class="pedidosContenedor" data-aos="zoom-in" data-aos-duration="1000">
 			<div class="formulario">
 				<label for="user">Nombre</label>
 				<input type="text" id="user" name="user" placeholder="Ingresa tu nombre">
@@ -232,5 +235,8 @@
 <script src="js/alerta.js"></script>
 <script src="js/loading.js"></script>
 <script src="js/menu.js"></script>
+<!--Animaciones-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
