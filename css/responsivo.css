@@ -162,4 +162,10 @@
 	.productos .productosGaleria .productoImg:last-child{
 		margin-top: 0;
 	}
+	.pedidos .pedidosContenedor .formulario input{
+		width: 90%;
+	}
+	.pedidos .pedidosContenedor .formulario textarea{
+		width: 90%;
+	}
 }
